@@ -110,7 +110,7 @@ const CURRENT_NOTE_ENLARGE_RATIO = 1.0;
 const DEFAULT_GUIDANCE_INTERVAL = 500;
 const SAMPLES_BASE_URL = './samples';
 const CHANNEL_ID = 'UCizuHuCAHmpTa6EFeZS2Hqg';
-const MAGENTA_BLOG_LINK = 'https://g.co/magenta/lofi-player';
+const MAGENTA_BLOG_LINK = 'https://chillwithkaz.github.io';
 const DRAGGING_PREVENT_CLICK_EVENT_THRESHOLD_FRAMECOUNT = 8;
 
 const worker = LOAD_ML_MODELS ? new Worker('worker.js') : null;
@@ -200,7 +200,7 @@ const state = {
   assets: {},
 };
 const assets = {
-  defaultBoardText: 'Chill with kaz.',
+  defaultBoardText: 'Vibert Thio 2020.',
   catIndex: 0,
   windowUrls: ['./assets/window-0.png', './assets/window-1.png'],
   avatarUrls: [`./assets/avatar-1-0.png`, `./assets/avatar-1-1.png`, `./assets/avatar-1-2.png`],
